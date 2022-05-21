@@ -1,0 +1,27 @@
+.main-contact {
+    height: 80vh;
+    background-color: rgb(80, 80, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+button {
+    margin-top: 10px;
+}

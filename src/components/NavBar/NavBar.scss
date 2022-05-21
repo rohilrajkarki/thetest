@@ -1,0 +1,44 @@
+.nav-bar {
+    // background-color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    li {
+        margin: 0 1rem;
+        cursor: pointer;
+
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 5px;
+            height: 5px;
+            background: transparent;
+            border-radius: 50%;
+
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        &:hover {
+            div {
+                background: rgb(128, 128, 234);
+            }
+        }
+    }
+}

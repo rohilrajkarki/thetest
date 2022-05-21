@@ -1,0 +1,40 @@
+.footer-here {
+    height: 50vh;
+    margin: 1rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+    h1 {
+        text-transform: uppercase;
+        color: rgb(80, 80, 138);
+
+    }
+
+
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    :nth-child(2) {
+        padding: 4rem;
+        clip-path: polygon(20% 0%, 0% 20%, 0 52%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 100% 49%, 100% 20%, 80% 0%, 50% 30%);
+        background: pink;
+    }
+
+
+}
+
+.footer-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
